@@ -180,4 +180,8 @@
     <string name="device_maintainer">Sanchit Rohilla</string>
     <string name="device_summary">Unknown</string>
 
+    <!-- Themes -->
+    <string name="theme_category_title">System Theme</string>
+
+
 </resources>
