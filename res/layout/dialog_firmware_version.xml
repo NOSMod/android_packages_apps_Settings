@@ -39,6 +39,22 @@
 
         <TextView
             style="@style/device_info_dialog_label"
+            android:id="@string/maintainer_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/maintainer_title" />
+
+        <TextView
+            style="@style/device_info_dialog_value"
+            android:id="@string/device_maintainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/device_maintainer"
+            android:background="?android:attr/selectableItemBackground"
+            android:textColor="?android:attr/colorAccent"/>
+
+        <TextView
+            style="@style/device_info_dialog_label"
             android:id="@+id/security_patch_level_label"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
